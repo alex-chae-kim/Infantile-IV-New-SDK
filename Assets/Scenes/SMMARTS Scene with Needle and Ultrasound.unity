@@ -355,6 +355,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1425774727752492, guid: 3b366fa80ba95a7418f512c67c3fee8a, type: 3}
   m_PrefabInstance: {fileID: 705129753}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &861394595 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4840824161851669593, guid: 7636bcc2054c5404e88592ca0787fcb4, type: 3}
+  m_PrefabInstance: {fileID: 7748011995727918979}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &870612141
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,6 +796,113 @@ MonoBehaviour:
   rateLimitInterval: 1
   highlightMaterial: {fileID: 2100000, guid: 5ff64df69eb31ca419428c294e9d34df, type: 2}
   highlightDuration: 2
+--- !u!1 &1578508028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1578508029}
+  - component: {fileID: 1578508032}
+  - component: {fileID: 1578508031}
+  - component: {fileID: 1578508030}
+  m_Layer: 5
+  m_Name: DTE Logo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1578508029
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578508028}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00019859854}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.15384616}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 861394595}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -300.0001, y: 0}
+  m_SizeDelta: {x: 960, y: 960}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1578508030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578508028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 0b71072b99db3bb4f83d00ff437b6a4e, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!328 &1578508031
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578508028}
+  m_Enabled: 0
+  m_VideoClip: {fileID: 32900000, guid: 0352d9f056a1a98418690dad142767e5, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 7e2b51a9b22213c4e9aa32878b1db7c2, type: 2}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 2
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 2
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 0
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
+  m_Url: 
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 0
+  m_Looping: 0
+  m_WaitForFirstFrame: 0
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
+--- !u!222 &1578508032
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578508028}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1627801895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1408,6 +1520,12 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 519862266088904082, guid: 7636bcc2054c5404e88592ca0787fcb4, type: 3}
+      propertyPath: m_text
+      value: '<cspace=15>Infantile IV</cspace>
+
+        <size=50%>A SMMARTS Application</size>'
+      objectReference: {fileID: 0}
     - target: {fileID: 1981847139153074784, guid: 7636bcc2054c5404e88592ca0787fcb4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1568,6 +1686,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5597632952819364091, guid: 7636bcc2054c5404e88592ca0787fcb4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6045281976630381527, guid: 7636bcc2054c5404e88592ca0787fcb4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1674,7 +1796,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4840824161851669593, guid: 7636bcc2054c5404e88592ca0787fcb4, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 1578508029}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7636bcc2054c5404e88592ca0787fcb4, type: 3}
 --- !u!1001 &9184929901644501762
