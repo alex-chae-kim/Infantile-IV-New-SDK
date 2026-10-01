@@ -305,10 +305,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: IndexPlate
       objectReference: {fileID: 0}
-    - target: {fileID: 1425774727752492, guid: 3b366fa80ba95a7418f512c67c3fee8a, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4706022559316720, guid: 3b366fa80ba95a7418f512c67c3fee8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -347,6 +343,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4706022559316720, guid: 3b366fa80ba95a7418f512c67c3fee8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 865865518186540474, guid: 3b366fa80ba95a7418f512c67c3fee8a, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3300884669246702544, guid: 3b366fa80ba95a7418f512c67c3fee8a, type: 3}
@@ -796,7 +796,7 @@ MonoBehaviour:
   EdgeThickness: 0.02
   LayeredTexture: {fileID: 0}
   AnisoIndex: 0
-  highlightMaterial: {fileID: 2100000, guid: 5ff64df69eb31ca419428c294e9d34df, type: 2}
+  highlightMaterial: {fileID: 0}
   ultrasoundHighlightColor: {r: 1, g: 0, b: 1, a: 1}
   isHighlighted: 0
   isVoxelizableForFluoro: 0
@@ -1039,7 +1039,7 @@ Transform:
   m_GameObject: {fileID: 1146548390}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40322137, y: 0.37229645, z: -0.021917755, w: 0.8356599}
-  m_LocalPosition: {x: -115.7, y: 245.1, z: -84.8}
+  m_LocalPosition: {x: -71.1, y: 194.2, z: -55.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1107,7 +1107,7 @@ MonoBehaviour:
     m_Bits: 3670071
   maxRaycastDistance: 1000
   rateLimitInterval: 1
-  highlightMaterial: {fileID: 2100000, guid: 5ff64df69eb31ca419428c294e9d34df, type: 2}
+  highlightMaterial: {fileID: 0}
   highlightDuration: 2
 --- !u!1001 &1345832863
 PrefabInstance:
@@ -1876,7 +1876,7 @@ MonoBehaviour:
   EdgeThickness: 0.02
   LayeredTexture: {fileID: 0}
   AnisoIndex: 0
-  highlightMaterial: {fileID: 2100000, guid: 5ff64df69eb31ca419428c294e9d34df, type: 2}
+  highlightMaterial: {fileID: 0}
   ultrasoundHighlightColor: {r: 1, g: 0, b: 1, a: 1}
   isHighlighted: 0
   isVoxelizableForFluoro: 0
@@ -2044,6 +2044,120 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5429861209518878321
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 716237926515277864, guid: dd5f5a7f8dc2b4a21b600e9daa15c71f, type: 3}
+      propertyPath: m_Name
+      value: Backdoor for Microcontroller
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975622627636500743, guid: dd5f5a7f8dc2b4a21b600e9daa15c71f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975622627636500743, guid: dd5f5a7f8dc2b4a21b600e9daa15c71f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975622627636500743, guid: dd5f5a7f8dc2b4a21b600e9daa15c71f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975622627636500743, guid: dd5f5a7f8dc2b4a21b600e9daa15c71f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975622627636500743, guid: dd5f5a7f8dc2b4a21b600e9daa15c71f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975622627636500743, guid: dd5f5a7f8dc2b4a21b600e9daa15c71f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975622627636500743, guid: dd5f5a7f8dc2b4a21b600e9daa15c71f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975622627636500743, guid: dd5f5a7f8dc2b4a21b600e9daa15c71f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975622627636500743, guid: dd5f5a7f8dc2b4a21b600e9daa15c71f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975622627636500743, guid: dd5f5a7f8dc2b4a21b600e9daa15c71f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd5f5a7f8dc2b4a21b600e9daa15c71f, type: 3}
+--- !u!1001 &7254769625506277230
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1604053350852401335, guid: 65a70be0480714cfc8a795538c5ac1c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604053350852401335, guid: 65a70be0480714cfc8a795538c5ac1c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604053350852401335, guid: 65a70be0480714cfc8a795538c5ac1c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604053350852401335, guid: 65a70be0480714cfc8a795538c5ac1c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604053350852401335, guid: 65a70be0480714cfc8a795538c5ac1c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604053350852401335, guid: 65a70be0480714cfc8a795538c5ac1c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604053350852401335, guid: 65a70be0480714cfc8a795538c5ac1c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604053350852401335, guid: 65a70be0480714cfc8a795538c5ac1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604053350852401335, guid: 65a70be0480714cfc8a795538c5ac1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604053350852401335, guid: 65a70be0480714cfc8a795538c5ac1c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5054628014341272200, guid: 65a70be0480714cfc8a795538c5ac1c0, type: 3}
+      propertyPath: m_Name
+      value: Backdoor for Ultrasound Settings
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65a70be0480714cfc8a795538c5ac1c0, type: 3}
 --- !u!1001 &7748011995727918979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2451,6 +2565,8 @@ SceneRoots:
   - {fileID: 9184929901644501762}
   - {fileID: 1627801895}
   - {fileID: 7748011995727918979}
+  - {fileID: 7254769625506277230}
+  - {fileID: 5429861209518878321}
   - {fileID: 485116282}
   - {fileID: 1915019216}
   - {fileID: 1570060569}

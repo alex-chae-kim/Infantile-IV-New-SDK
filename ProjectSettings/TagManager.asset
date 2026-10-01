@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - C-Arm Boundary
   layers:
   - Default
   - TransparentFX
@@ -27,9 +28,9 @@ TagManager:
   - Needle
   - Ultrasound Image
   - Ultrasound Display
-  - 
-  - 
-  - 
+  - Fluoroscopy Image
+  - Fluoroscopy Display
+  - US and Fluoroscopy Display
   - 
   - 
   - 

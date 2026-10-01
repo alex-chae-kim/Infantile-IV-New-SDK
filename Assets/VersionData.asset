@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1aa09dac82572b48a018ec0b6cdeb8c, type: 3}
   m_Name: VersionData
   m_EditorClassIdentifier: 
-  sdkVersion: SDK1.0.0
-  timestamp: 0924260849
-  versionTimeStamp: VSDK1.0.0.0924260849
+  sdkVersion: SDK3.0.0
+  timestamp: 2610011546
+  versionTimeStamp: VSDK3.0.0.2610011546
