@@ -1,0 +1,8 @@
+{
+  "name": "SMMARTS.Runtime",
+  "references": [
+	"Unity.TextMeshPro",
+	"Unity.TextMeshPro.Editor",
+	"Unity.RenderPipelines.Core.Runtime"
+  ]
+}

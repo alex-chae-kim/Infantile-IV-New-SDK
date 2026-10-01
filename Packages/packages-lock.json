@@ -1,13 +1,12 @@
 {
   "dependencies": {
     "com.cssalt.smmarts-sdk-package": {
-      "version": "https://alex-chae-kim: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@github.com/CSSALT/SMMARTS-SDK-Internal.git?path=Unity-SDK-Project-URP/Assets/SMMARTS-SDK-Package",
+      "version": "file:com.cssalt.smmarts-sdk-package",
       "depth": 0,
-      "source": "git",
+      "source": "embedded",
       "dependencies": {
         "com.unity.textmeshpro": "1.0.0"
-      },
-      "hash": "5303993d7cd956b20ee73160043eea81b66e16f0"
+      }
     },
     "com.unity.ai.navigation": {
       "version": "2.0.14",
