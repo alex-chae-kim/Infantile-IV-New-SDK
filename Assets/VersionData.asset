@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: VersionData
   m_EditorClassIdentifier: 
   sdkVersion: SDK3.0.0
-  timestamp: 2610061929
-  versionTimeStamp: VSDK3.0.0.2610061929
+  timestamp: 2610062000
+  versionTimeStamp: VSDK3.0.0.2610062000
