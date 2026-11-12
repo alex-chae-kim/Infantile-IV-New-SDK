@@ -2178,6 +2178,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1510000566727526, guid: 64b34a6a35c259d48bf59176e4f1e060, type: 3}
       insertIndex: -1
       addedObject: {fileID: 848126659}
+    - targetCorrespondingSourceObject: {fileID: 1510000566727526, guid: 64b34a6a35c259d48bf59176e4f1e060, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 848126665}
   m_SourcePrefab: {fileID: 100100000, guid: 64b34a6a35c259d48bf59176e4f1e060, type: 3}
 --- !u!1 &848126658 stripped
 GameObject:
@@ -2220,6 +2223,108 @@ MonoBehaviour:
   RecordEveryFrame: 1
   isRecording: 0
   csvFileName: 
+--- !u!114 &848126665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848126658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2da7165494054346952e94b2fcf135f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NeedleInsertionMetrics
+  skinObjects:
+  - {fileID: 5580655328262096754}
+  veinObjects:
+  - {fileID: 731057709}
+  arteryObjects:
+  - {fileID: 964584545}
+  entryThreshold_mm: 0.2
+  writeFrameCsv: 1
+  attempt: 0
+  inSkin: 0
+  inVein: 0
+  inArtery: 0
+  veinBackwalled: 0
+  arteryBackwalled: 0
+  entryAngle_deg: NaN
+  currentAngle_deg: NaN
+  insertionLength_mm: 0
+  skinDepth_mm: 0
+  maxInsertionLength_mm: 0
+  maxSkinDepth_mm: 0
+--- !u!1 &964584545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 964584546}
+  - component: {fileID: 964584548}
+  - component: {fileID: 964584547}
+  m_Layer: 2
+  m_Name: Artery Detection Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &964584546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964584545}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.000015258789, z: -0.00012207031}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1208633443}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &964584547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964584545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29753ab171aa82a4f8af4c0c4db8fe76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PulsingArteryDetectionCollider
+  sourceArtery: {fileID: 1208633445}
+  midpointFraction: 0.5
+  appliedOffset_mm: 0.1
+--- !u!64 &964584548
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964584545}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!224 &1003368677 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4840824161851669593, guid: 7636bcc2054c5404e88592ca0787fcb4, type: 3}
@@ -2510,7 +2615,10 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 285c2d45d1287824186612edc7fb1862, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 54dcd34ceef8c9e49ae49b4c3d9f6cee, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 964584546}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -4414262051886069287, guid: 54dcd34ceef8c9e49ae49b4c3d9f6cee, type: 3}
       insertIndex: -1
